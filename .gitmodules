@@ -63,4 +63,10 @@
 	url = https://github.com/kchmck/vim-coffee-script.git
 [submodule "_vim/bundle/ctrlp"]
 	path = _vim/bundle/ctrlp
-	url = https://github.com/kien/ctrlp.vim.git
+    url = https://github.com/kien/ctrlp.vim.git
+[submodule "_vim/bundle/distinguished"]
+	path = _vim/bundle/distinguished
+	url = https://github.com/Lokaltog/vim-distinguished.git
+[submodule "_vim/bundle/arduino-syntax"]
+	path = _vim/bundle/arduino-syntax
+	url = https://github.com/sudar/vim-arduino-syntax.git
