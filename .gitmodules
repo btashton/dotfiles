@@ -69,4 +69,7 @@
 	url = https://github.com/Lokaltog/vim-distinguished.git
 [submodule "_vim/bundle/arduino-syntax"]
 	path = _vim/bundle/arduino-syntax
-	url = https://github.com/sudar/vim-arduino-syntax.git
+    url = https://github.com/sudar/vim-arduino-syntax.git
+[submodule "_vim/bundle/taglist"]
+	path = _vim/bundle/taglist
+	url = https://github.com/vim-scripts/taglist.vim.git
