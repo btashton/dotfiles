@@ -307,3 +307,6 @@ endif
 if exists("&colorcolumn")
    set colorcolumn=79
 endif
+
+" Look further and further up for tags file
+set tags=tags
