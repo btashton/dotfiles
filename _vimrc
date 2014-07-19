@@ -86,6 +86,12 @@ nmap <silent><Leader>tn <Esc>:Pytest next<CR>
 nmap <silent><Leader>tp <Esc>:Pytest previous<CR>
 nmap <silent><Leader>te <Esc>:Pytest error<CR>
 
+" map tab functions
+nmap <silent><Leader>Tn <Esc>:tabnew<CR>
+nmap <silent><Leader>Tc <Esc>:tabclose<CR>
+nmap <silent><Leader>Ty <Esc>:tabnext<CR>
+nmap <silent><Leader>Tr <Esc>:tabprevious<CR>
+
 " Run django tests
 map <leader>dt :set makeprg=python\ manage.py\ test\|:call MakeGreen()<CR>
 
@@ -111,6 +117,7 @@ imap <C-W> <C-O><C-W>
 
 " Open NerdTree
 map <leader>n :NERDTreeToggle<CR>
+let NERDTreeHijackNetrw=1
 
 map <leader>f :CtrlP<CR>
 map <leader>b :CtrlPBuffer<CR>
@@ -130,9 +137,8 @@ map <leader>r :RopeRename<CR>
 " Pathogen - Allows us to organize our vim plugins
 " ==========================================================
 " Load pathogen with docs for all plugins
-filetype off
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+set nocp
+execute pathogen#infect()
 
 " ==========================================================
 " Basic Settings
