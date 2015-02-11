@@ -315,4 +315,6 @@ if exists("&colorcolumn")
 endif
 
 " Look further and further up for tags file
-set tags=tags
+set tags=./tags;
+autocmd BufWritePost *.c,*.cpp,*.h :TlistUpdate
+map <leader>tl :TlistToggle<CR>

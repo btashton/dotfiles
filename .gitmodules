@@ -34,9 +34,6 @@
 [submodule "_vim/bundle/nerdtree"]
 	path = _vim/bundle/nerdtree
 	url = https://github.com/vim-scripts/The-NERD-tree.git
-[submodule "_vim/bundle/ropevim"]
-	path = _vim/bundle/ropevim
-	url = https://github.com/python-rope/ropevim
 [submodule "_vim/bundle/acp"]
 	path = _vim/bundle/acp
 	url = https://github.com/vim-scripts/AutoComplPop.git
@@ -72,4 +69,7 @@
     url = https://github.com/sudar/vim-arduino-syntax.git
 [submodule "_vim/bundle/taglist"]
 	path = _vim/bundle/taglist
-	url = https://github.com/vim-scripts/taglist.vim.git
+    url = https://github.com/vim-scripts/taglist.vim.git
+[submodule "_vim/bundle/ropevim"]
+	path = _vim/bundle/ropevim
+    url = https://github.com/python-rope/ropevim.git
